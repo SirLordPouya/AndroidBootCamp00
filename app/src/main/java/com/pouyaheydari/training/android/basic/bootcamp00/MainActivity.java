@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
 
         TextView txtTitle = findViewById(R.id.txtTitle);
         Button btnSave = findViewById(R.id.btnSave);
+
+
         EditText edtAge = findViewById(R.id.edtAge);
 
         txtTitle.setText(HtmlCompat.fromHtml("<h2>Title</h2><br><p>Description here</p>",HtmlCompat.FROM_HTML_MODE_COMPACT));
