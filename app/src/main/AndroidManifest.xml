@@ -3,6 +3,7 @@
     package="com.pouyaheydari.training.android.basic.bootcamp00">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -11,18 +12,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBootCampt00">
-        <activity android:name=".TestTypefaceActivity"></activity>
-        <activity android:name=".TestDrawerLayoutActivity"></activity>
-        <activity android:name=".TestVideoViewActivity" />
-        <activity android:name=".TestWebViewActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".TestHandlerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+        <activity android:name=".TestPermissionActivity">
+        </activity>
+        <activity android:name=".TestKebabMenuActivity"></activity>
+        <activity android:name=".TestAlertDialogActivity" />
+        <activity android:name=".TestNotificationActivity" />
+        <activity android:name=".TestSharedPreferencesActivity" />
+        <activity android:name=".TestDialogActivity" />
+        <activity android:name=".TestImplicitActivity" />
+        <activity android:name=".TestDestinationIntentActivity" />
+        <activity android:name=".TestIntentActivity" />
+        <activity android:name=".TestTypefaceActivity" />
+        <activity android:name=".TestDrawerLayoutActivity" />
+        <activity android:name=".TestVideoViewActivity" />
+        <activity android:name=".TestWebViewActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
     </application>
 
 </manifest>
