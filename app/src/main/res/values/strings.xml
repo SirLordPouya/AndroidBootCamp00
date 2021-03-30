@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidBootCamp00</string>
+    <string name="save">SAVE</string>
+    <string name="please_enter_your_age">Please enter your age</string>
+</resources>
