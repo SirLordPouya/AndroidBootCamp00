@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
         android:allowBackup="true"
@@ -12,16 +13,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBootCampt00">
-        <activity android:name=".TestHandlerActivity">
+        <activity android:name=".TestPicassoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TestPermissionActivity">
+        <activity android:name=".TestAsyncHttpClientActivity">
         </activity>
-        <activity android:name=".TestKebabMenuActivity"></activity>
+        <activity android:name=".TestHttpUrlActivity"></activity>
+        <activity android:name=".TestThreadActivity" />
+        <activity android:name=".TestRecyclerViewActivity" />
+        <activity android:name=".TestHandlerActivity" />
+        <activity android:name=".TestPermissionActivity" />
+        <activity android:name=".TestKebabMenuActivity" />
         <activity android:name=".TestAlertDialogActivity" />
         <activity android:name=".TestNotificationActivity" />
         <activity android:name=".TestSharedPreferencesActivity" />
@@ -36,6 +42,10 @@
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.Dialog" />
+
+        <service android:name=".TestService" />
+
+        <receiver android:name=".TestBroadcastReceiver" />
     </application>
 
 </manifest>
