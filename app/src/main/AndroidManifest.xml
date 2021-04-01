@@ -13,16 +13,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBootCampt00">
-        <activity android:name=".TestPicassoActivity">
+        <activity android:name=".TestViewPagerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TestAsyncHttpClientActivity">
+        <activity android:name=".TestDynamicFragment">
         </activity>
-        <activity android:name=".TestHttpUrlActivity"></activity>
+        <activity android:name=".TestStaticFragmentActivity" />
+        <activity android:name=".TestDatabaseActivity" />
+        <activity android:name=".TestPicassoActivity" />
+        <activity android:name=".TestAsyncHttpClientActivity" />
+        <activity android:name=".TestHttpUrlActivity" />
         <activity android:name=".TestThreadActivity" />
         <activity android:name=".TestRecyclerViewActivity" />
         <activity android:name=".TestHandlerActivity" />
